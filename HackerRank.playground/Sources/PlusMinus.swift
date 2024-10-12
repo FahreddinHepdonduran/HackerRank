@@ -1,3 +1,5 @@
+import Foundation
+
 public func plusMinus(arr: [Int]) -> Void {
     var positive: Double = 0
     var zero: Double = 0

@@ -1,3 +1,5 @@
+import Foundation
+
 public func compareTriplets(a: [Int], b: [Int]) -> [Int] {
     var pointA: Int = 0
     var pointB: Int = 0

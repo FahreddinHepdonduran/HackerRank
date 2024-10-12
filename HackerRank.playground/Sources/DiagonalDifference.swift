@@ -1,3 +1,5 @@
+import Foundation
+
 public func diagonalDifference(arr: [[Int]]) -> Int {
     var leftToRightDiagonal = 0
     var rightToLeftDiagonal = 0

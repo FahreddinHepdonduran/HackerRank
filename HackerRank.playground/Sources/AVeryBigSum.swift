@@ -1,3 +1,5 @@
+import Foundation
+
 public func aVeryBigSum(ar: [Int]) -> Int {
     var total: Int = 0
     

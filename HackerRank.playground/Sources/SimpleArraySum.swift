@@ -1,3 +1,5 @@
+import Foundation
+
 public func simpleArraySum(ar: [Int]) -> Int {
     var total: Int = 0
     
