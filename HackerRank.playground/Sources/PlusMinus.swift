@@ -1,6 +1,4 @@
-import UIKit
-
-func plusMinus(arr: [Int]) -> Void {
+public func plusMinus(arr: [Int]) -> Void {
     var positive: Double = 0
     var zero: Double = 0
     var negative: Double = 0
@@ -23,7 +21,3 @@ func plusMinus(arr: [Int]) -> Void {
     print(String(format: decimalFormat, negativeRatio))
     print(String(format: decimalFormat, zeroRatio))
 }
-
-// Test
-plusMinus(arr: [-4, 3, -9, 0, 4, 1])
-plusMinus(arr: [1, 1, 0, -1, -1])

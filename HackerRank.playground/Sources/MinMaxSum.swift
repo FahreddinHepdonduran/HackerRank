@@ -1,6 +1,6 @@
-import UIKit
+import Foundation
 
-func miniMaxSum(arr: [Int]) -> Void {
+public func miniMaxSum(arr: [Int]) -> Void {
     // TODO: fix here - array my be less than four emelent
     let sortedArray = arr.sorted { $0 < $1 }
     let firstFourElement = Array(sortedArray.prefix(4))
@@ -9,5 +9,3 @@ func miniMaxSum(arr: [Int]) -> Void {
     let sumOfLastFourElement = lastFourElement.reduce(0, { $0 + $1 })
     print("\(sumOfFirstFourElement)  \(sumOfLastFourElement)")
 }
-
-miniMaxSum(arr: [1, 3, 5, 7, 9])

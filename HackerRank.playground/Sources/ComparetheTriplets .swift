@@ -1,6 +1,4 @@
-import UIKit
-
-func compareTriplets(a: [Int], b: [Int]) -> [Int] {
+public func compareTriplets(a: [Int], b: [Int]) -> [Int] {
     var pointA: Int = 0
     var pointB: Int = 0
     
@@ -22,5 +20,3 @@ func compareTriplets(a: [Int], b: [Int]) -> [Int] {
     
     return array
 }
-
-print(compareTriplets(a: [17, 28, 30], b: [99, 16, 8]))

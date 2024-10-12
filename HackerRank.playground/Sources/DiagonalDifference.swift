@@ -1,6 +1,4 @@
-import UIKit
-
-func diagonalDifference(arr: [[Int]]) -> Int {
+public func diagonalDifference(arr: [[Int]]) -> Int {
     var leftToRightDiagonal = 0
     var rightToLeftDiagonal = 0
     
@@ -18,6 +16,3 @@ func diagonalDifference(arr: [[Int]]) -> Int {
     
     return abs(total)
 }
-
-// test
-print(diagonalDifference(arr: [[1, 2, 3], [4, 5, 6], [9, 8, 9]]))
