@@ -8,10 +8,11 @@ import UIKit
 //print(simpleArraySum(ar: [1, 2, 3, 4]))
 //miniMaxSum(arr: [1, 3, 5, 7, 9])
 
-print(timeConversion(s: "12:35:55AM"))
-print(timeConversion(s: "01:35:55AM"))
-print(timeConversion(s: "11:35:55AM"))
-print(timeConversion(s: "12:35:55PM"))
-print(timeConversion(s: "04:35:55PM"))
-print(timeConversion(s: "11:35:55PM"))
+//print(timeConversion(s: "12:35:55AM"))
+//print(timeConversion(s: "01:35:55AM"))
+//print(timeConversion(s: "11:35:55AM"))
+//print(timeConversion(s: "12:35:55PM"))
+//print(timeConversion(s: "04:35:55PM"))
+//print(timeConversion(s: "11:35:55PM"))
 
+print(gradingStudents(grades: [4, 73, 67, 38, 33]))
